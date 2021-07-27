@@ -1,5 +1,5 @@
-streamName = "";
-accountName = "";
+streamName = "duskelaskel";
+accountName = "suuslebot";
 OAuthKey = "";
 inputPrevent = 0;
 maxLength = 50;

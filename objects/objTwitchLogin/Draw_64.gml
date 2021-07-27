@@ -52,8 +52,8 @@ if(point_in_rectangle(xMouse, yMouse, display_get_gui_width() / 2 + validateSlot
 		{
 			validateSlot.width += 20;
 			validateSlot.height += 10;
-			hasValidate = room_speed / 4;
-			inputPrevent = room_speed / 4;
+			hasValidate = inputPrevent = room_speed / 8;;
+			inputPrevent = inputPrevent = room_speed / 8;;
 		}
 		else
 		{

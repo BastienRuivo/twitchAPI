@@ -2,7 +2,7 @@
 twitch_chat_say("Déconnecté du chat Twitch")
 twitch_chat_disconnect();
 twitch_free();
-if(tryReconnect)
+if(wrongLoggin)
 {
 	var login = instance_create_depth(x, y, -1, objTwitchLogin);
 	login.error = true;

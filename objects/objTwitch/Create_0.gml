@@ -8,7 +8,7 @@ OAuthKey = "";
 isConnectedToChat = false;
 heard = 0
 
-tryReconnect = false;
+wrongLoggin = false;
 
 #endregion
 

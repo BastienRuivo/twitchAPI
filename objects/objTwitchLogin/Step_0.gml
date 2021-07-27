@@ -20,7 +20,7 @@ if(keyboard_check(vk_anykey) && inputPrevent <= 0 && !keyboard_check(vk_control)
 		default:
 			break;
 	}
-	inputPrevent = room_speed / 4;
+	inputPrevent = room_speed / 8;
 	keyboard_string = "";
 }
 
@@ -48,7 +48,7 @@ if(keyboard_check(vk_control) && (keyboard_check(ord("V")) || keyboard_check(ord
 		default:
 			break;
 	}
-	inputPrevent = room_speed / 4;
+	inputPrevent = room_speed / 8;
 	keyboard_string = "";
 }
 
@@ -71,7 +71,7 @@ if(keyboard_check(vk_backspace) && inputPrevent <= 0)
 		default:
 			break;
 	}
-	inputPrevent = room_speed / 4;
+	inputPrevent = room_speed / 8;
 	keyboard_string = 0;
 }
 
@@ -81,7 +81,7 @@ if(inputPrevent > 0)
 }
 	
 drawCursorTimer++;
-if(drawCursorTimer > room_speed / 4)
+if(drawCursorTimer > inputPrevent = room_speed / 8)
 {
 	drawCursor = !drawCursor;
 	drawCursorTimer = 0;

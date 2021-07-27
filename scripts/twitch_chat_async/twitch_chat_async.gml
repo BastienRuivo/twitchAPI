@@ -79,8 +79,8 @@ function twitch_chat_async() {
         
 	        twitch_log("Error notice received!");
 	        twitch_log(data);
-			show_debug_message(data)
-			if(data == "v NOTICE * :Login authentication failed")
+			
+			if(string_count("v NOTICE * :Login authentication failed", data))
 			{
 				return -1;
 			}
